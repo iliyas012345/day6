@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+class person {
+    constructor(name,place,job){
+        this.name = name;
+        this.place = place;
+        this.job = job;
+        
+    }
+
+    getDetails(){
+        return(`The name of the person is ${this.name} works at ${this.place} as a ${this.job}`)
+    }
+}
+
+let person1 = new person ("RAM","MADURAI","IT")
+let person2 = new person ("KATHRI","THENI","SOFTFORE DEVELOPER")
+
+
+
+console.log(person1.getDetails());
+console.log(person2.getDetails())
+
+
+    </script>
+</body>
+</html>
